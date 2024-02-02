@@ -5,13 +5,15 @@
     Пользователь имеет возможность зарегистрироваться
   prerequisites: |
     Находимся на странице регистрации
-    Nickname=valid data, Email=valid data, Password=valid data
+  test-data: |
+     Nickname=valid data, Email=valid data, Password=valid data
   steps:
-        - Нажать на кнопку SIGN UP
+    - Нажать на кнопку SIGN UP
     - Ввести в поле Nickname валидное имя пользователя 
     - Ввести в поле Email валидную почту пользователя
     - Ввести в поле Password валидный пароль  
     - Ввести в поле Password Confirmation валидное значение пароля
+    - Нажать на кнопку SUBMIT
   expected-result: |
      Удачная регистрация пользователя. Произошел редирект на страницу создания игры
 
@@ -27,3 +29,19 @@
    - Нажать на кнопку TRY SIMPLE BATTLE
   expected-result: |
     Произошел редирект на страницу создания игры
+
+- summary: |                                            
+    Авторизация пользователя через окно авторизации     
+  requirement: |    
+    Пользователь имеет возможность авторизоваться
+  prerequisites: |
+    Пользователь зарегистрирован на сайте
+  test-data: |
+    Email=valid data, Password=valid data
+  steps:
+    - Нажать на кнопку SIGN IN
+    - Ввести в поле Email валидную почту пользователя
+    - Ввести в поле Password валидный пароль  
+    - Нажать на кнопку SUBMIT
+  expected-result: |
+     Удачная авторизация пользователя. Произошел редирект на страницу создания игры
