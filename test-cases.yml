@@ -61,3 +61,21 @@
     - Нажать на кнопку CREATE BATTLE
   expected-result: |
      Удачная создание игры с ботом. Произошел редирект на страницу игры
+
+
+    - summary: |                                            
+    Создание игры с другом
+  requirement: |    
+    Пользователь имеет возможность создать игру с другом
+  prerequisites: |
+    Пользователь авторизовался на сайте
+    Друг авторизовался на сайте
+  test-data: |
+  Game Type= WITH A FRIEND
+  steps:
+    - Нажать на кнопку CREATE A GAME
+    - Выбрать любые параметры для: Level, Time control, Choose task by name or tags
+    - Выбрать игру с ботом, нажав на кнопку WITH A BOT в параметре Game type 
+    - Нажать на кнопку CREATE BATTLE
+  expected-result: |
+     Удачная создание игры с ботом. Произошел редирект на страницу игры
