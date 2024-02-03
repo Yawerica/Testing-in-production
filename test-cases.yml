@@ -74,7 +74,26 @@
   steps:
     - Нажать на кнопку CREATE A GAME
     - Выбрать любые параметры для: Level, Time control, Choose task by name or tags
-    - Выбрать игру с ботом, нажав на кнопку WITH A BOT в параметре Game type 
+    - Выбрать игру с другом, нажав на кнопку WITH A FRIEND в параметре Game type 
+    - Выбрать другого пользователя в выпадающем списке Choose opponent
     - Нажать на кнопку CREATE BATTLE
   expected-result: |
      Удачная создание игры с ботом. Произошел редирект на страницу игры
+
+ - summary: |                                            
+    Создание игры с другим пользователем
+  requirement: |    
+    Пользователь имеет возможность создать игру с другим пользователем
+  prerequisites: |
+    Пользователь авторизовался на сайте
+    Другой пользователь авторизовался на сайте
+  test-data: |
+    Game Type= WITH OTHER USER
+  steps:
+    - Нажать на кнопку CREATE A GAME
+    - Выбрать любые параметры для: Level, Time control, Choose task by name or tags
+    - Выбрать игру с другим пользователем, нажав на кнопку WITH OTHER USER в параметре Game type 
+    - Нажать на кнопку CREATE BATTLE
+  expected-result: |
+     Удачная создание игры с другим пользователем. Произошел редирект на страницу игры
+
