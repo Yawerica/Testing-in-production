@@ -56,7 +56,7 @@
     Game Type= WITH A BOT
   steps:
     - Нажать на кнопку CREATE A GAME
-    - Выбрать любые параметры для: Level, Time control, Choose task by name or tags
+    - Выбрать любые параметры для Level, Time control, Choose task by name or tags
     - Выбрать игру с ботом, нажав на кнопку WITH A BOT в параметре Game type 
     - Нажать на кнопку CREATE BATTLE
   expected-result: |
