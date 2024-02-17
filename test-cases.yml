@@ -73,7 +73,7 @@
     Game Type= WITH A FRIEND
   steps:
     - Нажать на кнопку CREATE A GAME
-    - Выбрать любые параметры для: Level, Time control, Choose opponent, Choose task by name or tags
+    - Выбрать любые параметры для Level, Time control, Choose opponent, Choose task by name or tags
     - Выбрать игру с другом, нажав на кнопку WITH A FRIEND в параметре Game type 
     - Выбрать другого пользователя в выпадающем списке Choose opponent
     - Нажать на кнопку CREATE INVITE
