@@ -92,7 +92,7 @@
     Game Type= WITH OTHER USER
   steps:
     - Нажать на кнопку CREATE A GAME
-    - Выбрать любые параметры для: Level, Time control, Choose task by name or tags
+    - Выбрать любые параметры для Level, Time control, Choose task by name or tags
     - Выбрать игру с другим пользователем, нажав на кнопку WITH OTHER USER в параметре Game type 
     - Нажать на кнопку CREATE BATTLE
     - Дождаться когда соперник примет приглашение в игру и произойдет редирект на страницу игры
