@@ -173,7 +173,7 @@
   prerequisites: |
    Пользователь авторизован на сайте
   test-data: |
-   no data   https://docs.google.com/spreadsheets/d/1dLH_jMCwXLVlSjRDUnUdsSwNusaVrPRbydJ8bIVUq-4/edit#gid=0
+   no data    #https://docs.google.com/spreadsheets/d/1dLH_jMCwXLVlSjRDUnUdsSwNusaVrPRbydJ8bIVUq-4/edit#gid=0
   steps:
    - Кликнуть на вкладку TOURNAMENTS
    - Нажать на ссылку You may want to create one
