@@ -15,7 +15,6 @@
     - Ввести Password Confirmation 
     - Нажать на кнопку SUBMIT
   expected-result: |
-     
 
 - summary: |                                            
     Создание игры без регистрации на сайте   
@@ -30,6 +29,7 @@
    - Нажать на кнопку TRY SIMPLE BATTLE
   expected-result: |
     Игра без регистрации успешно создана
+    
 - summary: |                                            
     Авторизация пользователя через окно авторизации     
   requirement: |    
