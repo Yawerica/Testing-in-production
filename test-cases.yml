@@ -24,7 +24,7 @@
     Находимся на главной странице сайте
     Пользователь не авторизован
   test-data: |
-    no data
+    no test-data
   steps:
    - Нажать на кнопку TRY SIMPLE BATTLE
   expected-result: |
@@ -44,7 +44,7 @@
     - Ввести в поле Password валидный пароль  
     - Нажать на кнопку SUBMIT
   expected-result: |
-     Удачная авторизация пользователя. Произошел редирект на страницу создания игры
+     Пользователь успешно авторизован 
 
 - summary: |                                            
     Создание игры с ботом 
@@ -53,7 +53,7 @@
   prerequisites: |
     Пользователь авторизовался на сайте
   test-data: |
-    Game Type= WITH A BOT
+    no test-data
   steps:
     - Нажать на кнопку CREATE A GAME
     - Выбрать любые параметры для Level, Time control, Choose task by name or tags
