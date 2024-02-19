@@ -15,7 +15,8 @@
     - Ввести Password Confirmation 
     - Нажать на кнопку SUBMIT
   expected-result: |
-
+   Пользователь успешно зарегистрирован
+  
 - summary: |                                            
     Создание игры без регистрации на сайте   
   requirement: |    
