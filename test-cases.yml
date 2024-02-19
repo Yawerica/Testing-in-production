@@ -4,18 +4,18 @@
   requirement: |    
     Пользователь имеет возможность зарегистрироваться
   prerequisites: |
-    Находимся на странице регистрации
+    no prerequisites
   test-data: |
-     Nickname=valid data, Email=valid data, Password=valid data
+     no test-data
   steps:
     - Нажать на кнопку SIGN UP
-    - Ввести в поле Nickname валидное имя пользователя 
-    - Ввести в поле Email валидную почту пользователя
-    - Ввести в поле Password валидный пароль  
-    - Ввести в поле Password Confirmation валидное значение пароля
+    - ВвестиNickname 
+    - Ввести Email 
+    - Ввести Password 
+    - Ввести Password Confirmation 
     - Нажать на кнопку SUBMIT
   expected-result: |
-     Удачная регистрация пользователя. Произошел редирект на страницу создания игры
+     Пользователь зарегистрирован. Произошел редирект на страницу создания игры
 
 - summary: |                                            
     Создание игры без регистрации на сайте   
