@@ -113,7 +113,7 @@
      const solution = (width, length) => {
      return width * length; };
      module.exports = solution;
-  steps: |
+  steps:
    - Ввести код
    - Нажать на кнопку RUN
    - Дождаться проверки вашего кода и появления окна с надписью Woohoo, you're Champion!!!!!
