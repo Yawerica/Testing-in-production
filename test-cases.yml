@@ -153,13 +153,13 @@
 - summary: |                                            
    Проверка выбора сложности при создании игры
   requirement: |    
-   Пользователь имеет возможность выбрать уровень сложности игры 1,2,3.4
+   Пользователь имеет возможность выбрать уровень сложности игры
   prerequisites: |
    Пользователь авторизован
   test-data: |
    no test-data
   steps:
-   - Выбрать желаемый уровень сложности, нажав на соответствующее количество звезд
+   - Выбрать желаемый уровень сложности
    - Нажать на кнопку CREATE BATTLE
    - Дождаться, когда произойдет редирект на страницу игры
   expected-result: |
@@ -172,7 +172,7 @@
   prerequisites: |
    Пользователь авторизован на сайте
   test-data: |
-   no data    #https://docs.google.com/spreadsheets/d/1dLH_jMCwXLVlSjRDUnUdsSwNusaVrPRbydJ8bIVUq-4/edit#gid=0
+   https://docs.google.com/spreadsheets/d/1dLH_jMCwXLVlSjRDUnUdsSwNusaVrPRbydJ8bIVUq-4/edit#gid=0
   steps:
    - Кликнуть на вкладку TOURNAMENTS
    - Создать турнир с любыми опциями
